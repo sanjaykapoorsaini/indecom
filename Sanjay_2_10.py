@@ -27,6 +27,6 @@ if __name__ == "__main__":
     if len(sys.argv) > 1 :
         file_name = sys.argv[1]
     else :
-        file_name = 'D:/Desktop/data_file.csv'
+        file_name = 'data_file.csv'
     with open(file_name, 'rb') as csvfile:  
         get_desired_data(csvfile)
